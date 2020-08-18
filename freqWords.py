@@ -9,7 +9,7 @@ def FrequentWords(Text, k):
     freq = FrequencyMap(Text, k)
     m = max(freq.values())
     for key in freq:
-        if freq[key] == m
+        if freq[key] == m:
             words.append(key)
             words.sort()
     return words
